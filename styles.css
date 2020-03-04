@@ -8,7 +8,7 @@
     /* Vertically align text */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
 
     background-color: purple;
     width: 30%;
@@ -17,5 +17,5 @@
     text-align: center;
     margin: 5px;
     border-radius: 10px;
-    box-shadow: black 3px 3px 5px;
+    box-shadow: grey 3px 3px 5px;
 }
