@@ -1,0 +1,21 @@
+#drum-pad-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.drum-pad {
+    /* Vertically align text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: gray;
+    width: 30%;
+    height: 100px;
+    /* Horizontally align text */
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: black 3px 3px 5px;
+}
